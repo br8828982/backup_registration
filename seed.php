@@ -11,4 +11,7 @@ function createTable() {
         password TEXT NOT NULL
     )";
     $db->exec($query);
+    echo "Table created successfully!";
 }
+
+createTable();

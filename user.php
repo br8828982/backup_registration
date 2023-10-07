@@ -24,7 +24,7 @@ function fetchUser($username) {
     $result = $stmt->execute();
       
     if (!$result) {
-        die("Error fetching user.");
+        die("Error executing query.");
     }
   
     return $result->fetchArray();
